@@ -1,0 +1,23 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Fri Mar  3 02:23:05 2017
+     Path: "C:\Users\Suruchi\Desktop\ood\pr2help\Analyzer"
+     Args: Executive.vcxproj, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched     4 dirs
+   processed     1 files

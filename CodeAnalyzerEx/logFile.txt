@@ -1,0 +1,80 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Sun Mar 12 18:16:22 2017
+     Path: "C:\Users\Suruchi\Desktop\ood\Mehal\Project#2"
+     Args: -DDependencyAnalysis, -SStrongComponents, *.h, *.cpp, /f, /r
+                                                                               
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+         ActionsAndRules.h    function                           doAction     598      85       6
+         ActionsAndRules.h    function                             doTest     902      74      10
+       ConfigureParser.cpp    function                              Build      89      98       3
+   Cpp11-BlockingQueue.cpp    function                               main      37      52       3
+             Executive.cpp    function                  processSourceCode     367      95       8
+             Executive.cpp    function                               main     871      72       4
+            FileSystem.cpp    function                               main     769     438      31
+        GrammarHelpers.cpp    function              isFirstArgDeclaration     164      54       2
+        GrammarHelpers.cpp    function                               main     594      59      17
+               NoSqlDb.cpp    function                               main      40      84       5
+                Parser.cpp    function                               main      89      55       8
+             Tokenizer.cpp    function                          nextState     192      81      14
+             Tokenizer.cpp    function                               main     666      79       7
+             Tokenizer.cpp    function                               main     329      61       8
+                Window.cpp    function                    getUserSettings     104      57       4
+                Window.cpp    function                 setUpDisplaysPanel     501      53       1
+                Window.cpp    function              createDisplayModeView     566      54       1
+                Window.cpp    function                    browseForFolder     701      52       5
+                Window.cpp    function                  browseForFolderEx     760      54       6
+            xmlpersist.cpp    function                               main      14      85       5
+
+              public data: AbstrSynTree.h : 74 - struct DeclarationNode
+                Scanner :: ITokCollection * pTc = nullptr ; 
+              public data: AbstrSynTree.h : 75 - struct DeclarationNode
+                Access access_ ; 
+              public data: AbstrSynTree.h : 76 - struct DeclarationNode
+                DeclType declType_ ; 
+              public data: AbstrSynTree.h : 77 - struct DeclarationNode
+                std :: string package_ ; 
+              public data: AbstrSynTree.h : 78 - struct DeclarationNode
+                size_t line_ ; 
+              public data: AbstrSynTree.h : 91 - using Path
+                Type type_ ; 
+              public data: AbstrSynTree.h : 92 - using Path
+                Type parentType_ ; 
+              public data: AbstrSynTree.h : 93 - using Path
+                Name name_ ; 
+              public data: AbstrSynTree.h : 94 - using Path
+                Package package_ ; 
+              public data: AbstrSynTree.h : 95 - using Path
+                Path path_ ; 
+              public data: AbstrSynTree.h : 96 - using Path
+                size_t startLineCount_ ; 
+              public data: AbstrSynTree.h : 97 - using Path
+                size_t endLineCount_ ; 
+              public data: AbstrSynTree.h : 98 - using Path
+                size_t complexity_ ; 
+              public data: AbstrSynTree.h : 99 - using Path
+                std :: vector < ASTNode * > children_ ; 
+              public data: AbstrSynTree.h : 100 - using Path
+                std :: vector < DeclarationNode > decl_ ; 
+              public data: AbstrSynTree.h : 101 - using Path
+                std :: vector < Scanner :: ITokCollection * > statements_ ; 
+              public data: DepAnal.h : 28 - using SPtr
+                TypeTable tt ; 
+              public data: Parser.h : 107 - class IRule
+                static const bool Continue = true ; 
+              public data: Parser.h : 108 - class IRule
+                static const bool Stop = false ; 
+              public data: Tokenizer.cpp : 34 - struct Context
+                std :: string token ; 
+              public data: Tokenizer.cpp : 35 - struct Context
+                std :: istream * _pIn ; 
+              public data: Utilities.h : 56 - class test
+                std :: vector < std :: string > publicVector ; 
+
+
+    searched   169 dirs
+   processed    77 files
